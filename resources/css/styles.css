@@ -14,17 +14,20 @@ nav{
   font-size: 1.125rem;
   height: 4rem;
 }
-
+nav div{
+  display: inline-flex;
+}
 nav h1{
   font-weight: 700;
   font-size: 2rem;
   font-family: 'Bebas Neue', cursive;
   color: #F2D7B4;
+  margin: auto 0;
+  padding-left: 2rem;
 }
 
 nav .nav-list{
   display: inline-flex;
-  position: relative;
   font-weight: 300;
   color: #F2D7B4;
 }
