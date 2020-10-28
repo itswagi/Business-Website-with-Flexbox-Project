@@ -37,12 +37,25 @@ nav .nav-list{
 }
 
 .banner{
+  display: flex;
   background-image: url("../images/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 30rem;
   width: 100%;
+}
+
+.banner p{
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5%;
+  color: #ffffff;
+  font-size: 4rem;
+  font-family: 'Bebas Neue', cursive;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
 }
 
 #container {
