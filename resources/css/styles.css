@@ -65,6 +65,7 @@ nav .nav-list{
 #container .column {
   position: relative;
   float: left;
+  flex-direction: column;
 }
 #center {
   width: 100%;
