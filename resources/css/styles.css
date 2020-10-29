@@ -96,6 +96,21 @@ nav .nav-list{
   width: 10rem;
 }
 
+#footer div{
+  height: 7rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer div p{
+  margin-left: 10%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5rem;
+}
+
 #container {
   padding-left: 200px;   /* LC width */
   padding-right: 150px;  /* RC width */
